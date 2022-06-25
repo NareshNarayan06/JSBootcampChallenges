@@ -41,6 +41,7 @@ function operator(num1,num2,num3) {
   }else if ((num1 / num2) === num3){
   return 'divide';
   }else {
+    
     return 'null';
   }
 
