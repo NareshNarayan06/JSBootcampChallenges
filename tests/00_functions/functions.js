@@ -22,9 +22,9 @@ function addUnknown(num1=0,num2=0,num3=0,num4=0,num5=0) {
 
 function evenOrOdd(num) {
   if(num%2 != 0){
-    return console.log('odd');
+    return 'odd';
   }else{
-    return console.log('even')
+    return 'even';
   }
 
 }
@@ -33,15 +33,15 @@ function operator(num1,num2,num3) {
   if (num1,num2,num3 === 0 ){
     console.log('You have entered "0" value for num1, num2, num3')
  }else if ((num1 + num2) === num3 ){
-  console.log('plus')
+  return 'plus';
   }else if ((num1 - num2) === num3){
-  console.log('minus')
+  return 'minus';
   }else if ((num1 * num2) === num3){
-  console.log('multiply')
+  return 'multiply';
   }else if ((num1 / num2) === num3){
-  console.log('divide')
+  return 'divide';
   }else {
-    console.log('null')
+    return 'null';
   }
 
 }

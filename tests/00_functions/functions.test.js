@@ -100,6 +100,6 @@ describe('operator', () => {
 
   it('returns if none of the other conditions are true', () => {
     const returnedValue = operator(124, 2345, 1);
-    expect(returnedValue).to.equal(null);
+    expect(returnedValue).to.equal('null');
   });
 });
