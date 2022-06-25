@@ -2,9 +2,9 @@
 
 function doesInclude(str, letter) {
   if ( str.includes(letter)){
-    console.log(`'${str}' does have the letter '${letter}''`)
+   return true;
   }else{
-    console.log(`'${str}' does not have the letter '${letter}'`)
+    return false;
   }
 }
 
@@ -15,6 +15,7 @@ function isPalindrome(str) {
 
      reverse += str.charAt(i);
  }
+ console.log(reverse)
   return str === reverse;
 
 }
@@ -24,14 +25,13 @@ function cap(str, letter) {
   let letterInCap = letter.toUpperCase();
   let indexOfletterInStr = strInCap.indexOf(letterInCap);
   if(strInCap.includes(letterInCap)){
-  console.log(strInCap.charAt(indexOfletterInStr + 1))
+  return (strInCap.charAt(indexOfletterInStr + 1));
   }else{
-    console.log(`'${str}' does not have the letter '${letter}'`)
-  }
+    return 'sorry not found';
 }
-
+}
 function firstCharacter(str1, str2) {
-  if(string1.toLowerCase().charAt(0) === string2.toLowerCase().charAt(0)){
+  if(str1.toLowerCase().charAt(0) === str2.toLowerCase().charAt(0)){
     return true;
   }else{
     return false;
