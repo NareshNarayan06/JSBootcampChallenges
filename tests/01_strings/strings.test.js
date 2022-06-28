@@ -3,7 +3,7 @@ const { expect } = require('chai');
 
 const { cap, firstCharacter, doesInclude, isPalindrome} = require('./strings');
 
-describe('doesInclude', () => {
+describe.only('doesInclude', () => {
   it('is a function', () => {
     expect(typeof doesInclude).to.equal('function');
   });
@@ -24,7 +24,7 @@ describe('doesInclude', () => {
   });
 });
 
-describe('isPalindrome', () => {
+describe.only('isPalindrome', () => {
   it('is a function', () => {
     expect(typeof isPalindrome).to.equal('function');
   });
@@ -47,7 +47,7 @@ describe('isPalindrome', () => {
   });
 });
 
-describe('firstCharacter', () => {
+describe.only('firstCharacter', () => {
   it('is a function', () => {
     expect(typeof firstCharacter).to.equal('function');
   });
@@ -74,7 +74,7 @@ describe('firstCharacter', () => {
   });
 });
 
-describe('cap', () => {
+describe.only('cap', () => {
   it('is a function', () => {
     expect(typeof cap).to.equal('function');
   });
