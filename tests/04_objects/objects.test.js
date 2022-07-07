@@ -6,7 +6,7 @@ const {
   compareObjects, deleteProp, numObjectProps, shoppingCart,
 } = require('./objects');
 
-describe('deleteProp', () => {
+describe.only('deleteProp', () => {
   it('is a function', () => {
     expect(typeof deleteProp).to.equal('function');
   });
@@ -38,7 +38,7 @@ describe('deleteProp', () => {
   });
 });
 
-describe('numObjectProps', () => {
+describe.only('numObjectProps', () => {
   it('is a function', () => {
     expect(typeof numObjectProps).to.equal('function');
   });
@@ -65,7 +65,7 @@ describe('numObjectProps', () => {
   });
 });
 
-describe('shoppingCart', () => {
+describe.only('shoppingCart', () => {
   it('is a function', () => {
     expect(typeof shoppingCart).to.equal('function');
   });
@@ -95,7 +95,7 @@ describe('shoppingCart', () => {
   });
 });
 
-describe('compareObjects', () => {
+describe.only('compareObjects', () => {
   it('is a function', () => {
     expect(typeof compareObjects).to.equal('function');
   });
