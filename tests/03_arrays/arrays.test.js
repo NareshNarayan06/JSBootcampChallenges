@@ -5,7 +5,7 @@ const {
   multiply, includesCopy, camelCase, inventory, joiner,
 } = require('./arrays');
 
-describe.only('multiply', () => {
+describe('multiply', () => {
   it('is a function', () => {
     expect(typeof multiply).to.equal('function');
   });
@@ -26,7 +26,7 @@ describe.only('multiply', () => {
   });
 });
 
-describe.only('includesCopy', () => {
+describe('includesCopy', () => {
   it('is a function', () => {
     expect(typeof includesCopy).to.equal('function');
   });
@@ -47,7 +47,7 @@ describe.only('includesCopy', () => {
   });
 });
 
-describe.only('camelCase', () => {
+describe('camelCase', () => {
   it('is a function', () => {
     expect(typeof camelCase).to.equal('function');
   });
@@ -107,7 +107,7 @@ describe('inventory', () => {
   });
 });
 
-describe.only('joiner', () => {
+describe('joiner', () => {
   it('is a function', () => {
     expect(typeof joiner).to.equal('function');
   });

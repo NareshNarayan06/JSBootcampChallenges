@@ -8,7 +8,7 @@ return obj;
 
 function numObjectProps(obj) {
   let count = Object.keys(obj);
-  return count.length
+  return count.length;
 
 }
 

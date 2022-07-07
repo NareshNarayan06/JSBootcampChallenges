@@ -46,7 +46,7 @@ function joiner(arr,optional = ',') {
   }
   return result
   
-}a
+}
 
 module.exports = {
   multiply, includesCopy, inventory, camelCase, joiner,
